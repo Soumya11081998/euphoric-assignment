@@ -1,0 +1,29 @@
+.myChat {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myChat .meAndTime {
+    display: flex;
+    flex-direction: column;
+}
+
+.myChat .meAndTime .myImage {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.myChat .meAndTime .time {
+    color: rgb(83, 83, 83);
+}
+
+.myChat .myText {
+    max-width: 300px;
+    background-color: rgb(9, 9, 223);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}

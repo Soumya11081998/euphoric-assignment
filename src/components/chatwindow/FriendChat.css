@@ -1,0 +1,28 @@
+.friendChat {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.friendChat .friendAndTime {
+    display: flex;
+    flex-direction: column;
+}
+
+.friendChat .friendAndTime .friendImage {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.friendChat .friendAndTime .time {
+    color: rgb(83, 83, 83);
+}
+
+.friendChat .friendText {
+    max-width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}

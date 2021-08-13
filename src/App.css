@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .inbox {
+    width: 0px;
+  }
+}

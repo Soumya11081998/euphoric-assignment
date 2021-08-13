@@ -1,0 +1,25 @@
+.displayInbox {
+    color: white;
+    width: 180px;
+    padding: 10px;
+    background-color: rgb(54, 50, 70);
+}
+
+.displayInbox .inboxItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.addPerson {
+    color: white;
+    margin: 15px;
+    transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 600px) {
+    .friendList {
+      width: 0px;
+    }
+  }

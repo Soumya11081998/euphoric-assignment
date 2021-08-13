@@ -1,0 +1,11 @@
+.friendList {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 107, 107);
+}
+
+.friendList .searchBar {
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}

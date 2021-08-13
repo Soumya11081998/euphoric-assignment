@@ -1,0 +1,51 @@
+.currentFriend{
+    width: 400px;
+}
+
+.currentFriend .currentFriendTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.currentFriend .currentFriendTop .icon {
+    margin: 15px;
+}
+
+.currentFriend .currentFriendMid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.currentFriend .currentFriendMid .messengerIcon{
+    height: 32px;
+    width: 32px;
+}
+
+.currentFriend .currentFriendMid .friendImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.currentFriend .currentFriendMid .dots {
+    margin: 15px;
+}
+
+.currentFriend .currentFriendMid .dots .dot {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1px;
+}
+
+.currentFriend .currentFriendBot .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+}

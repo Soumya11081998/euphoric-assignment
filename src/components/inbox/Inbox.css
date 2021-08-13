@@ -1,0 +1,9 @@
+.inbox {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .displayInbox {
+      width: 0px;
+    }
+}

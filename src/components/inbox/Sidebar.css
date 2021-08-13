@@ -1,0 +1,23 @@
+.sidebar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 43, 43);
+}
+
+.sidebar .menuicon {
+    margin: 12px;
+}
+
+.sidebar .menuicon div {
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.sidebar .iconImage {
+    height: 32px;
+    width: auto;
+    margin: 10px;
+}

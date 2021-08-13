@@ -1,0 +1,15 @@
+.chatWindowTop {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(168, 168, 168);
+    padding: 0px 10px;
+}
+
+.chatWindowTop .icons {
+
+}
+
+.chatWindowTop .icons .icon {
+    border-left: 2px solid rgb(168, 168, 168);
+    padding: 15px;
+}
